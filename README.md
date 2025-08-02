@@ -1,35 +1,53 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jecSxI3G)
-# 📘 Assignment: HTML5 + Accessibility & SEO Basics
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple, semantic HTML5 web page with accessibility and SEO best practices.">
+  <meta name="keywords" content="HTML5, accessibility, SEO, semantic tags, beginner web design">
+  <meta name="author" content="Your Name">
+  <title>Accessible & SEO-Friendly Web Page</title>
+</head>
+<body>
 
-## Overview
+  <header>
+    <h1>Welcome to My HTML5 Page</h1>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-This assignment will help you solidify your understanding of modern HTML5 structure while applying foundational concepts of web accessibility and search engine optimization (SEO). You’ll create a simple, semantically correct web page that prioritizes both human and machine readability—two pillars of great web design.
+  <main>
+    <section id="about">
+      <h2>About This Page</h2>
+      <p>This is a simple HTML5 web page designed with semantic elements to improve structure, accessibility, and search engine visibility. It follows best practices for screen readers and supports clear content hierarchy.</p>
+    </section>
 
-## Objective
+    <section id="features">
+      <h2>Key Features</h2>
+      <h3>Semantic Structure</h3>
+      <p>Built using semantic HTML5 elements like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> to create a meaningful page layout.</p>
 
-Build a basic web page using HTML5 semantic tags, applying accessibility best practices and beginner-friendly SEO principles. Your final output should demonstrate a well-structured layout that supports screen readers and is optimized for discoverability.
+      <h3>Accessibility Support</h3>
+      <p>Uses proper landmarks and descriptive tags to help screen readers and assistive technologies navigate the content easily.</p>
 
-## Guidelines
+      <h3>SEO Basics</h3>
+      <p>Includes meaningful headings, descriptive metadata, and human-readable content to support search engine discoverability.</p>
+    </section>
 
-Use only HTML5. No CSS or JavaScript is required at this stage. Focus on using meaningful semantic elements to structure your page. Avoid using `<div>` or `<span>` unless absolutely necessary. Ensure your page has clearly defined sections such as a header, navigation, main content, and a footer.
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>For more information, please email us at <a href="mailto:info@example.com">info@example.com</a>.</p>
+    </section>
+  </main>
 
-Incorporate accessibility by using proper HTML5 landmarks and attributes that improve navigation for assistive technologies. Your HTML should reflect thoughtful planning of hierarchy and readability, both for users and search engines.
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
 
-For SEO, emphasize the use of heading tags in the correct order, provide descriptive text, and ensure your content is both human-readable and crawler-friendly. Consider how a search engine would interpret your page in terms of structure and content clarity.
-
-## Deliverables
-
-A single HTML file named `index.html`. It should include:
-
-* A semantic structure using appropriate HTML5 elements.
-* Clear headings in a logical hierarchy.
-* Accessibility enhancements using proper tags and attributes.
-* SEO-friendly metadata and content.
-
-## Tips
-
-* Use HTML5 semantic tags appropriately.
-* Organize content with accessibility in mind.
-* Apply basic on-page SEO techniques.
-* Follow clean, readable HTML code structure.
-
+</body>
+</html>
