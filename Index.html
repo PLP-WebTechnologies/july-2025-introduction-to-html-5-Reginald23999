@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Enhanced HTML5 content with lists, tables, media, and a validated form">
+  <meta name="author" content="Your Name">
+  <title>Enhanced HTML5 Page with Form</title>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Enhanced HTML5 Page</h1>
+    <p>This page demonstrates advanced HTML5 content elements and a feature-rich, accessible form with native validation.</p>
+  </header>
+
+  <main>
+    <!-- Section: Lists -->
+    <section>
+      <h2>Features of HTML5</h2>
+      <ul>
+        <li>Semantic Tags for Better Accessibility</li>
+        <li>Built-in Form Validation</li>
+        <li>Support for Audio and Video Embedding</li>
+        <li>Improved User Interaction Elements</li>
+      </ul>
+    </section>
+
+    <!-- Section: Table -->
+    <section>
+      <h2>HTML5 vs. HTML4 Comparison</h2>
+      <table border="1">
+        <caption>Key Differences Between HTML4 and HTML5</caption>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>HTML4</th>
+            <th>HTML5</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Doctype</td>
+            <td>Long and complex</td>
+            <td>Short and simple: <code>&lt;!DOCTYPE html&gt;</code></td>
+          </tr>
+          <tr>
+            <td>Media Support</td>
+            <td>No native support</td>
+            <td>Built-in support for audio/video</td>
+          </tr>
+          <tr>
+            <td>Form Validation</td>
+            <td>Requires JavaScript</td>
+            <td>Native support with attributes</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Section: Media -->
+    <section>
+      <h2>Embedded Media</h2>
+      <p>Here's an example of a video and an image embedded using HTML5:</p>
+      <video src="sample.mp4" controls width="320" muted>
+        Your browser does not support the video tag.
+      </video>
+      <br>
+      <img src="image.jpg" alt="Sample image description" width="320">
+      <br>
+      <audio src="audio.mp3" controls>
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <!-- Section: Form -->
+    <section>
+      <h2>Registration Form</h2>
+      <form action="#" method="post" autocomplete="on">
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="fullname">Full Name:</label><br>
+          <input type="text" id="fullname" name="fullname" placeholder="Reginald" required minlength="3"><br><br>
+
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+
+          <label for="age">Age:</label><br>
+          <input type="number" id="age" name="age" min="18" max="100" required><br><br>
+
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password" required minlength="6" placeholder="Enter secure password"><br><br>
+
+          <label for="phone">Phone (format: 123-456-7890):</label><br>
+          <input type="tel" id="phone" name="phone" pattern="\d{3}-\d{3}-\d{4}" placeholder="123-456-7890"><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferences</legend>
+
+          <label>Gender:</label><br>
+          <input type="radio" id="male" name="gender" value="male" required>
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br><br>
+
+          <label for="country">Country:</label><br>
+          <select id="country" name="country" required>
+            <option value="">--Select--</option>
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+          </select><br><br>
+
+          <label for="bio">Short Bio:</label><br>
+          <textarea id="bio" name="bio" rows="4" cols="40" placeholder="Tell us about yourself..." minlength="10" maxlength="300"></textarea><br><br>
+        </fieldset>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
